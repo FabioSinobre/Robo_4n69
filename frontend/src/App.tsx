@@ -6,27 +6,28 @@ import Login from "components/Login";
 import NavBar from "components/NavBar";
 import Section from "components/Section";
 
+
 function App() {
   return (
     <>
       <div className="conteiner">
-        <div>
+        <div className="conteiner">
           <NavBar />
           <Login />
         </div>
-        <div>
+        <div className="Conteiner">
           <Header />
         </div>
-        <div>
+        <div className="conteiner">
           <Carousel />
         </div>
-        <div>
+        <div className="conteiner">
           <Article />
         </div>
-        <div>
+        <div className="conteiner">
           <Section />
         </div>
-        <div>
+        <div className="conteiner">
           <Footer />
         </div>
       </div>
