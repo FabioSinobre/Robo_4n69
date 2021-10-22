@@ -8,18 +8,16 @@ html, body {
     font-family: "Ubuntu", sans-serif;
 }
 body{
-    background: #F5DEB3;
+    background: #D3D3D3;
     display: grid;
     place-items: center;
     height: 100vw;
 }
-
 #root {
     display: flex;
     flex-direction: column;
     height: 100%;
 }
-
 .content {
     flex: 1 0 auto;
 }
@@ -27,11 +25,31 @@ body{
     flex-shrink: 0;
     text-align: center;
 }
-
 .bg-primary {
     background-color: var(--color-primary) !important;
 }
-
 .text-primary {
     color: var(--color-primary) !important;
+}
+/*auterações no perfio dos alunos*/
+.card-studens-outside{
+    background: #D3D3D3;
+    max-width: 80%;
+    margin: 10%;
+    margin-top: 0;
+    border-radius: 20px 35px 45px;
+    border-color: aquamarine;
+   -moz-border-radius: 20px 35px 45px;
+   -webkit-border-radius: 20px 35px 45px;
+}
+.card-studens{
+    background: #DCDCDC;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin: 20px;
+    border-radius: 20px 35px 45px;
+    box-shadow: 3px 1px 6px #000;
+    -moz-border-radius: 20px 35px 45px;
+    -webkit-border-radius: 20px 35px 45px;
+    text-align: justify;
 }

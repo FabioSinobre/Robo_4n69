@@ -24,7 +24,7 @@ function Carousel() {
                 desconhecida pegou uma galera do tipo e a mexeu para fazer
                 um livro de espécimes. Ele sobreviveu não apenas cinco
                 séculos, mas também o salto para a composição...</p>
-              <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+              <p className="card-text"><small className="text-muted">Last updated 20 mins ago</small></p>
             </div>
           </div>
 
