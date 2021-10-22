@@ -12,8 +12,12 @@ function App() {
     <>
       <div className="conteiner">
         <div className="conteiner">
-          <NavBar />
-          <Login />
+          <div>
+            <NavBar />
+          </div>
+          <div>
+            <Login />
+          </div>
         </div>
         <div className="Conteiner">
           <Header />
