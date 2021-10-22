@@ -24,6 +24,8 @@ body{
 .footer {
     flex-shrink: 0;
     text-align: center;
+    padding-top: 12px;
+    padding-bottom: 5px;
 }
 .bg-primary {
     background-color: var(--color-primary) !important;

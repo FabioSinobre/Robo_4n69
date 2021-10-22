@@ -1,7 +1,10 @@
 function Footer() {
     return (
-      <div >
-       <h1 className="text-primary"> Roda ROda Pé</h1>
+      <div className="conteiner">
+       <div className="footer text-center bg-primary text-white">
+           <p>Desenvolvido por Alunos da UNIVESP</p>
+           <p>Engenharia da Computação | São Paulo - outubro de 2021</p>
+       </div>
       </div>
     );
   }
