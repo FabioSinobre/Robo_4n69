@@ -19,9 +19,6 @@ function App() {
             <Login />
           </div>
         </div>
-        <div className="Conteiner">
-          <Header />
-        </div>
         <div className="conteiner">
           <Carousel />
         </div>

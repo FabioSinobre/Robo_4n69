@@ -1,11 +1,23 @@
 function NavBar() {
   return (
-    <div className="conteiner" >
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#">Robô 4N69</a>
-        </div>
-      </nav>
+    <div className="conteiner navBar" >
+
+      
+      <ul className="nav justify-content-end ">
+      <header><h1 className="text-robo-1 space">Robô 4n69</h1></header>
+        <li className="nav-item ">
+          <a className="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">Link</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">Link</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
     </div>
   );
 }

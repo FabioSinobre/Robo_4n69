@@ -2,7 +2,6 @@
 :root {
     --color-primary: #39866b;
 }
-
 html, body {
     font-family: "Ubuntu", sans-serif;
     width: 97%;
@@ -14,7 +13,9 @@ body{
     display: grid;
     place-items: center;
     height: 100vw;
-    
+}
+header{
+    color: cornflowerblue;
 }
 #root {
     display: flex;
@@ -29,12 +30,22 @@ body{
     text-align: center;
     padding-top: 12px;
     padding-bottom: 5px;
+    position: absolute;
+    width: 100%;
 }
 .bg-primary {
     background-color: var(--color-primary) !important;
 }
 .text-primary {
     color: var(--color-primary) !important;
+}
+/*NavBar*/
+.navBar{
+    position: relative;
+    width: 500px;
+}
+.space{
+    padding-left: 20px;
 }
 /*Formulário de cadastro*/
 .form-login{
@@ -61,7 +72,8 @@ button{
     border-radius: 0px 25px 0px 20px;
     border-color: #778899;
     background-color: #000;
-    color: aliceblue;;
+    color: aliceblue;
+    opacity: 25%;
 }
 /*auterações no perfio dos alunos*/
 .card-studens-outside{
