@@ -1,7 +1,6 @@
 import Article from "components/Article";
 import Carousel from "components/Carousel";
 import Footer from "components/Footer";
-import Header from "components/Header";
 import Login from "components/Login";
 import NavBar from "components/NavBar";
 import Section from "components/Section";
