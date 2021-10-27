@@ -41,17 +41,17 @@ header{
 }
 /*NavBar*/
 .navBar{
-    position: relative;
-    width: 500px;
+  
+    width: 100%;
 }
 .space{
     padding-left: 20px;
 }
 /*Formulário de cadastro*/
 .form-login{
-    max-width: 28%;  
-    margin: 5px 20px;  
     position: relative;
+    min-width: 150px;
+    margin: 5px 20px;  
     left: 74%;
 }
 label{
