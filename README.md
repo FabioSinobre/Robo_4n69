@@ -2,10 +2,10 @@
 
 ### Agradecimento aos Professores Colaboradores
 
-* Prof. Me. Abner Silva Xavier, orientador da primeira faze.
+* Prof. Me. Abner Silva Xavier, orientador da primeira fase.
 * Prof. Dr. Claudio Fabiano Motta, curador do [Museu da Computação](https://mc.icmc.usp.br/) do Instituto de Ciências Matemática e de Computação (ICMC).
 * Prof. Dr. Eduardo do Valle Simões, colaborador apresentou a ideia inicial [gitlab]( https://gitlab.com/simoesusp/robo-museu/-/tree/master/Orcamento)
-* Profª Me. Rosana Saraiva Fernandes, orientadora da segunda faze.
+* Profª Me. Rosana Saraiva Fernandes, orientadora da segunda fase.
 
 ### Alunos participantes do projeto
 - [x] ADVANILSON NERI DE SOUSA 
