@@ -1,5 +1,5 @@
 import fabio from 'assets/fotos/foto_fabio.jpeg'
-function Section() {
+function Page() {
   return (
     <div className="conteiner">
       <div className="card mb-3 ml-5 card-studens-outside " >
@@ -111,4 +111,4 @@ function Section() {
   );
 }
 
-export default Section;
+export default Page;
