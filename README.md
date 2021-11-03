@@ -22,7 +22,7 @@ Projeto iniciado no primeiro semestre de 2021, por um grupo de alunos do curso d
 
 No primeiro semenstre de 2021 desenvolvemos a primeira parte do projeto o robo com comandos local com o celular, no segundo semester de 2021 o desafio era criar uma interface Web que possibilitasse controlar o robo integrando a um banco de dados em nuvem.
 
-## Primeira Faze de Desenvolvimento
+## Primeira Fase de Desenvolvimento
 
 
-## Segunda Faze de Desenvolvimento
+## Segunda Fase de Desenvolvimento
