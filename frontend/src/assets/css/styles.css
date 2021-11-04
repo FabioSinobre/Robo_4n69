@@ -11,11 +11,13 @@ html, body {
 body{
     background: #D3D3D3;
     display: grid;
-    place-items: center;
+   /* place-items: center;*/
     height: 100vw;
 }
 header{
-    color: cornflowerblue;
+    color: white;
+    height: 105px;
+    background: rgb(70, 69, 69);
 }
 #root {
     display: flex;
@@ -41,7 +43,16 @@ header{
 }
 /*NavBar*/
 .navBar{
+<<<<<<< HEAD
     width: 100%;
+=======
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    
+}
+.nav-link{
+    color:white;
+>>>>>>> 2bf534e9b1dbab64bab19681d35c672fd65519a8
 }
 .space{
     padding-left: 2px;
@@ -52,11 +63,12 @@ header{
 
 /*Formulário de cadastro*/
 .form-login{
-    position: relative;
-    min-width: 150px;
+    max-width: 28%;  
     margin: 5px 20px;  
+    position: relative;
     left: 74%;
 }
+
 label{
     margin: 10px;
     margin-top: 0px;
@@ -68,6 +80,7 @@ button{
     margin: 10px;
     margin-top: 0px;
 }
+
 .button-env{
     padding: 8px;
     padding-top: 3px;
@@ -99,4 +112,35 @@ button{
     -moz-border-radius: 20px 35px 45px #000;
     -webkit-border-radius: 20px 35px 45px #000;
     text-align: justify;
+<<<<<<< HEAD
+=======
+}
+/* cadastro */
+.form-cadastro{
+    max-width: 28%;  
+    margin: 5px 20px;  
+    position: relative;
+    right: 1%;
+}
+label{
+    margin: 20px;
+    margin-top: 0px;
+}
+input{
+    font-size: x-small;
+}
+button{
+    margin: 20px;
+    margin-top: 0px;
+}
+.button-env{
+    padding: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 0px 25px 0px 20px;
+    border-color: #778899;
+    background-color: #000;
+    color: aliceblue;
+    opacity: 25%;
+>>>>>>> 2bf534e9b1dbab64bab19681d35c672fd65519a8
 }
