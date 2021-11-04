@@ -7,6 +7,7 @@ import Footer from "components/Footer";
 function Page()  {
     return (
         <>
+        <div className="conteiner">
             <div className="conteiner">
                  <NavBar />
             </div>
@@ -19,6 +20,7 @@ function Page()  {
             <div className="conteiner">
                  <Footer />
             </div>
+        </div>
         </>
     );
 }

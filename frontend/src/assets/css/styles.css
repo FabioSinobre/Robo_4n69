@@ -20,7 +20,7 @@ header{
 #root {
     display: flex;
     flex-direction: column;
-    width: 98%;
+    max-width: 98%;
 }
 .content {
     flex: 1 0 auto;
@@ -41,12 +41,15 @@ header{
 }
 /*NavBar*/
 .navBar{
-  
     width: 100%;
 }
 .space{
-    padding-left: 20px;
+    padding-left: 2px;
 }
+.box{
+    margin-left: 10%;
+}
+
 /*Formulário de cadastro*/
 .form-login{
     position: relative;

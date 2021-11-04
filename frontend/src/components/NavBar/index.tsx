@@ -3,7 +3,7 @@ function NavBar() {
     return (
         <>
             <div className="conteiner navBar" >
-                <ul className="nav justify-content-end ">
+                <ul className="nav justify-content">
                     <header><h1 className="text-robo-1 space">Robô 4n69</h1></header>
                     <li className="nav-item ">
                         <a className="nav-link active" aria-current="page" href="/">Home</a>
@@ -14,7 +14,9 @@ function NavBar() {
                     <li className="nav-item">
                         <a className="nav-link" href="/Control">Robô</a>
                     </li>
-                    <Login />
+                    <div className="box">
+                        <Login />
+                    </div>
                 </ul>
             </div>
         </>
