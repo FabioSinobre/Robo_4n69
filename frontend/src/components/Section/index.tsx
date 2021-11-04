@@ -18,7 +18,7 @@ function Section() {
         </div>
       </div>
       <div className="card mb-3 ml-5 card-studens-outside">
-      <div className="row no-gutters card card-studens">
+        <div className="row no-gutters card card-studens">
           <div className="col-md-1">
             <img src={fabio} className="card-img rounded-circle m-2 mt-0 pt-0" alt="Fabio D.Sinobre" />
           </div>
@@ -78,7 +78,7 @@ function Section() {
         </div>
       </div>
       <div className="card mb-3 ml-5 card-studens-outside">
-      <div className="row no-gutters card card-studens">
+        <div className="row no-gutters card card-studens">
           <div className="col-md-1">
             <img src={fabio} className="card-img rounded-circle m-2 mt-0 pt-0" alt="Fabio D.Sinobre" />
           </div>

@@ -43,16 +43,12 @@ header{
 }
 /*NavBar*/
 .navBar{
-<<<<<<< HEAD
     width: 100%;
-=======
     position: relative;
-    font-family: 'Lato', sans-serif;
-    
+    font-family: 'Lato', sans-serif;  
 }
 .nav-link{
     color:white;
->>>>>>> 2bf534e9b1dbab64bab19681d35c672fd65519a8
 }
 .space{
     padding-left: 2px;
@@ -60,7 +56,6 @@ header{
 .box{
     margin-left: 10%;
 }
-
 /*Formulário de cadastro*/
 .form-login{
     max-width: 28%;  
@@ -68,7 +63,6 @@ header{
     position: relative;
     left: 74%;
 }
-
 label{
     margin: 10px;
     margin-top: 0px;
@@ -80,7 +74,6 @@ button{
     margin: 10px;
     margin-top: 0px;
 }
-
 .button-env{
     padding: 8px;
     padding-top: 3px;
@@ -112,8 +105,6 @@ button{
     -moz-border-radius: 20px 35px 45px #000;
     -webkit-border-radius: 20px 35px 45px #000;
     text-align: justify;
-<<<<<<< HEAD
-=======
 }
 /* cadastro */
 .form-cadastro{
@@ -142,5 +133,4 @@ button{
     background-color: #000;
     color: aliceblue;
     opacity: 25%;
->>>>>>> 2bf534e9b1dbab64bab19681d35c672fd65519a8
 }

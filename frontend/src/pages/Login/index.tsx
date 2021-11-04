@@ -1,20 +1,19 @@
-import React from "react";
 import Login from "components/Login";
 import NavBar from "components/NavBar";
 import Footer from "components/Footer";
 import Cadastro from "components/Cadastro";
 
 const page = () => {
-  return(
-    <><div className="conteiner">
-      <div>
-        <NavBar />
+  return (
+    <>
+      <div className="conteiner">
+        <div>
+          <NavBar />
+        </div>
       </div>
-    </div>
-    <div className="conteiner">
+      <div className="conteiner">
         <Login />
       </div>
-     
       <div className="conteiner">
         <Cadastro />
       </div>
@@ -22,7 +21,8 @@ const page = () => {
         <div>
           <Footer />
         </div>
-      </div></>
-        );
-        }
-        export default page;
+      </div>
+    </>
+  );
+}
+export default page;
