@@ -1,6 +1,12 @@
-import fabio from 'assets/fotos/foto_fabio.jpeg'
+import fabio from 'assets/fotos/foto_fabio.jpeg';
+import NavBar from "components/NavBar";
+import Footer from "components/Footer";
 function Page() {
   return (
+    <>
+    <div className="conteiner">
+         <NavBar />
+    </div>
     <div className="conteiner">
       <div className="card mb-3 ml-5 card-studens-outside " >
         <div className="row no-gutters card card-studens ">
@@ -108,6 +114,10 @@ function Page() {
         </div>
       </div>
     </div>
+    <div className="conteiner">
+                 <Footer />
+            </div>
+    </>
   );
 }
 
